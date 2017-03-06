@@ -1,0 +1,91 @@
+/**
+* cuislandora specific site theme overrides.
+*/
+#header {
+  border-top-color: #000;
+  border-top-style: solid;
+  border-top-width: 3px;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 1em;
+  text-align: left;
+  max-width: 100%;
+}
+
+.header-content-wrapper{
+  height: auto;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-align:left;
+  max-width: 100%;
+}
+
+#header_logo_wrapper {
+  display: inline-block;
+  padding-top: 0.7em;
+  text-align: left;
+  max-width: 100%;
+}
+
+.header__logo{
+  max-width:100%;
+}
+
+.header__logo-image {
+  height: auto;
+  max-width: 620px;
+  vertical-align: bottom;
+}
+
+.header__name-and-slogan {
+  clear: right;
+  float: right;
+  text-align: left;
+  margin-right: auto !important;
+  margin-top: auto !important;
+}
+
+#site-slogan {
+  color: #871616;
+  font-style: italic;
+  padding-left: .75em;
+}
+
+#name-and-slogan h1 a span {
+  color: #871616;
+}
+
+#navigation .links li, #navigation .menu li {
+  border-top-color: #871616 !important;
+}
+
+#footer .footer-navigation.top ul li:nth-child(3) a {
+  background-image: url("../images/multisite_logos/cu_footer_logo.png") !important;
+  width: 132px !important;
+  height: 80px !important;
+}
+
+#name-and-slogan {
+  width:27%;
+  clear:right;
+  float:right;
+  padding-left: 1em;
+  padding-top: 0.4em;
+}
+#site-name {
+  text-align: left;
+  padding-left: 0.5em;
+}
+
+@media screen and (max-width: 885px){
+  #header_logo_wrapper{
+    max-width:68%;
+    max-height:100%;
+  }
+  .header__logo-image{
+    max-width:100%;
+    max-height:100%;
+  }
+}
