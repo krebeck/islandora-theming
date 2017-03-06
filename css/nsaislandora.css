@@ -8,3 +8,7 @@
   width: 100% !important;
   margin: auto !important;
 }
+
+.main-slideshow img{
+  max-height: 500px;
+}
