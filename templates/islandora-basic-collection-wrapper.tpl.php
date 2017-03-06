@@ -31,7 +31,7 @@
           <?php endforeach ?>
         <?php endif; ?>
       <?php endif; ?>
-      <?php if ($description_found && !empty($descriptions)): ?>
+      <?php if (isset($description_found) && !empty($descriptions)): ?>
         <div class="islandora-basic-collection-wrapper-metadatum">
               <strong><?php if (count($descriptions) > 1):
                   print (t('Description:'));
