@@ -1,3 +1,10 @@
 .nsaislandora #logo img{
   max-width: 220px;
 }
+
+.main-slideshow {
+  display: inline-block !important;
+  text-align: center !important;
+  width: 100% !important;
+  margin: auto !important;
+}
