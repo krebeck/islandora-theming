@@ -3,12 +3,138 @@
 }
 
 .main-slideshow {
-  display: inline-block !important;
+  /* display: inline-block !important; */
   text-align: center !important;
   width: 100% !important;
-  margin: auto !important;
+  /* margin: auto !important; */
 }
 
 .main-slideshow img{
   max-height: 500px;
 }
+
+/**
+ * Navigation bar.
+ */
+/* line 143, ../sass/components/_misc.scss */
+#navigation {
+  /* Sometimes you want to prevent overlapping with main div. */
+  /* overflow: hidden; */
+  font-family: Ropa Sans, Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  text-transform: uppercase;
+  /* Main menu and secondary menu links and menu block links. */
+}
+/* line 149, ../sass/components/_misc.scss */
+#navigation .block {
+  margin-bottom: 0;
+}
+/* line 160, ../sass/components/_misc.scss */
+#navigation .links,
+#navigation .menu {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+/* line 165, ../sass/components/_misc.scss */
+#navigation .links li,
+#navigation .menu li {
+  /* A simple method to get navigation links to appear in one line. */
+  float: left;
+  height: 31px;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+  background: #f1f1f1;
+  transition: background 0.3s ease 0s;
+}
+/* line 174, ../sass/components/_misc.scss */
+#navigation .links li a,
+#navigation .menu li a {
+  display: block;
+  border-right: 1px solid #000;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5px;
+  color: #000;
+  transition: color 0.3s ease 0s;
+}
+/* line 182, ../sass/components/_misc.scss */
+#navigation .links li a:hover, #navigation .links li a.active,
+#navigation .menu li a:hover,
+#navigation .menu li a.active {
+  color: #004fa4;
+}
+/* line 186, ../sass/components/_misc.scss */
+#navigation .links li:hover, #navigation .links li.active,
+#navigation .menu li:hover,
+#navigation .menu li.active {
+  background: #ebebeb;
+}
+/* line 190, ../sass/components/_misc.scss */
+#navigation .links li:nth-child(1),
+#navigation .menu li:nth-child(1) {
+  border-top: 3px solid #999967;
+}
+/* line 193, ../sass/components/_misc.scss */
+#navigation .links li:nth-child(2),
+#navigation .menu li:nth-child(2) {
+  border-top: 3px solid #999967;
+}
+/* line 196, ../sass/components/_misc.scss */
+#navigation .links li:nth-child(3),
+#navigation .menu li:nth-child(3) {
+  border-top: 3px solid #999967;
+}
+/* line 199, ../sass/components/_misc.scss */
+#navigation .links li:nth-child(4),
+#navigation .menu li:nth-child(4) {
+  border-top: 3px solid #999967;
+}
+/* line 202, ../sass/components/_misc.scss */
+#navigation .links li.last a,
+#navigation .menu li.last a {
+  border-right: 0;
+}
+/* line 209, ../sass/components/_misc.scss */
+#navigation .links li:first-child:nth-last-child(1),
+#navigation .links li:first-child:nth-last-child(1) ~ li,
+#navigation .menu li:first-child:nth-last-child(1),
+#navigation .menu li:first-child:nth-last-child(1) ~ li {
+  width: 100%;
+}
+/* line 209, ../sass/components/_misc.scss */
+#navigation .links li:first-child:nth-last-child(2),
+#navigation .links li:first-child:nth-last-child(2) ~ li,
+#navigation .menu li:first-child:nth-last-child(2),
+#navigation .menu li:first-child:nth-last-child(2) ~ li {
+  width: 50%;
+}
+/* line 209, ../sass/components/_misc.scss */
+#navigation .links li:first-child:nth-last-child(3),
+#navigation .links li:first-child:nth-last-child(3) ~ li,
+#navigation .menu li:first-child:nth-last-child(3),
+#navigation .menu li:first-child:nth-last-child(3) ~ li {
+  width: 33.33333%;
+}
+/* line 209, ../sass/components/_misc.scss */
+#navigation .links li:first-child:nth-last-child(4),
+#navigation .links li:first-child:nth-last-child(4) ~ li,
+#navigation .menu li:first-child:nth-last-child(4),
+#navigation .menu li:first-child:nth-last-child(4) ~ li {
+  width: 25%;
+}
+/* line 209, ../sass/components/_misc.scss */
+#navigation .links li:first-child:nth-last-child(5),
+#navigation .links li:first-child:nth-last-child(5) ~ li,
+#navigation .menu li:first-child:nth-last-child(5),
+#navigation .menu li:first-child:nth-last-child(5) ~ li {
+  width: 20%;
+}
+/* line 209, ../sass/components/_misc.scss */
+#navigation .links li:first-child:nth-last-child(6),
+#navigation .links li:first-child:nth-last-child(6) ~ li,
+#navigation .menu li:first-child:nth-last-child(6),
+#navigation .menu li:first-child:nth-last-child(6) ~ li {
+  width: 16.66667%;
+}
+

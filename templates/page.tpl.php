@@ -116,7 +116,14 @@
 
   </div>
   <div id="footer-wrapper" class="content-page-bottom">
-  <?php print render($page['footer']); ?>
+  <footer id="footer" class="<?php print $classes; ?>">
+    <div class="footer-inner">
+      <?php print render($page['footer_left']); ?>
+      <?php print render($page['footer_center']); ?>
+      <?php print render($page['footer_right']); ?>
+      <?php print render($page['footer']); ?>
+    </div>
+  </footer>
   <?php print render($page['bottom']); ?>
   </div>
 
